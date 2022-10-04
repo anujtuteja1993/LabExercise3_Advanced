@@ -15,4 +15,4 @@ for (let key in dictionary) {
     console.log(key); // "apple", then "__proto__"
 }
 console.log(dictionary.toString());// your toString in action
-console.log(dictionary); // "apple,__proto__"
+console.log(dictionary+''); // "apple,__proto__" because this forces it to call toString

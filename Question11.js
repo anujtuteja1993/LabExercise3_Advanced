@@ -1,9 +1,9 @@
 class FormatError extends SyntaxError {
     constructor(msg){
-        super();
-        this.message = msg;
+        super(msg);
+        //this.message = msg;
         this.name = "FormatError"
-        this.stack = "stack"
+        //this.stack = "stack"
     }
 
 }
